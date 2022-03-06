@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galacticake/Menu</title>
+    <link rel="stylesheet" href="./Estilos/style.css">
+</head>
+<body>   
+    <!-- Header -->
+    <div class="header">
+        
+        <div>
+        <img src="./Imagenes/GalactiCake-removebg-preview.png" alt="">
+            <a href="./index.html"></a>
+        </div>
+        <h1>Galacticake</h1>
+        <p>Sabores de <b>otro mundo</b></p>
+    </div>
+    
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="./index.html">Inicio</a>
+        <a href="./Menu.html">Menu</a>
+        <a href="./pedido.html">Pedidos</a>
+        <a href="./Ordenes.html">Ordenes</a>
+    </div>
+    
+    <!-- The flexible grid (content) -->
+    <div class="row">
+      <div class="side">
+        <h2>Nuestros Pasteles</h2>
+        <h5>Foto de Nosotros</h5>
+        <div class="Nosotros" style="height:420px;">
+        <img src="./Imagenes/nuestrospasteles.png" height="420px"></a></div>
+        <p>Algunos de nuestros colores </p>
+        <h3>Nuestros mejores pasteles</h3>
+        <p>Pruebalos!</p>
+        <div class="Terra" style="height:100px;"><img src="./Imagenes/Terra.jpg" height="100px">
+            <img src="./Imagenes/Marte.jpg" height="100px">
+            <img src="./Imagenes/Venus2.jpg" height="100px">
+
+        </div><br>
+        <div class="Venus" style="height:100px;"><img src="./Imagenes/Venus.jpg" height="100px">
+            <img src="./Imagenes/Urano.jpg" height="100px">
+            <img src="./Imagenes/Jupiter.jpg" height="100px">
+        </div><br>
+      </div>
+      <div class="main">
+        <center><h2>Arma tu pedido</h2>
+            <form action="Pedidos.js">
+                <label for="Nombre"></label><br>
+                <input type="text" id="Nombres" placeholder="Nombres">
+                <label for="Apellidos"></label><br>
+                <input type="text" id="Apellidos" placeholder="Apellidos">
+                <label for="Telefono"> </label><br>
+                <input type="tel" id="Danos tu Telefono, Galactico" placeholder="Numero de telefono Galactico">
+                <label for="Correo electronico"> </label><br>
+                <input type="text" id="Danos tu correo electronico" placeholder="Direccion de correo">
+                <label for="Danos tu direccion"> </label><br>
+                <input type="text" id="Danos tu direccion" placeholder="Direccion">
+            </form>
+        </center>
+        </h5>
+        <center>
+            <h2>Selecciona tu pastel</h2>
+        </center>
+        <center><img src="./Imagenes/fondo.jpg" height="200px"</center>
+        <form class="selecciona_tu_pastel">
+            <input type="checkbox" id="Mercurio" name="Planetas" value="Mercurio">
+            <label for="Mercurio">Mercurio............$ 450.00</label><br>
+            <input type="checkbox" id="Venus" name="Planetas" value="Venus">
+            <label for="Venus">Venus..................$ 400.00</label><br>
+            <input type="checkbox" id="Tierra" name="Planetas" value="Tierra">
+            <label for="Tierra">Tierra................$ 500.00</label><br>
+            <input type="checkbox" id="Marte" name="Planetas" value="Marte">
+            <label for="Marte">Marte..................$ 450.00</label><br>
+            <input type="checkbox" id="Jupiter" name="Planetas" value="Jupiter">
+            <label for="Jupiter">Jupiter..............$ 450.00</label><br>
+            <input type="checkbox" id="Saturno" name="Planetas" value="Saturno">
+            <label for="Saturno">Saturno..............$ 450.00</label><br>
+            <input type="checkbox" id="Urano" name="Planetas" value="Urano">
+            <label for="Urano">Urano..................$ 450.00</label><br>
+            <input type="checkbox" id="Netpuno" name="Planetas" value="Netpuno">
+            <label for="Netpuno">Netpuno..............$ 450.00</label><br>
+            <input type="checkbox" id="Pluton" name="Planetas" value="Pluton">
+            <label for="Pluton">Pluton................$ 450.00</label><br>
+        </form>  
+        <h2>Selecciona tus Toppings</h2>
+        <center>
+        <div class="Newsletter" style="width:600px;"><img src="./Imagenes/Toppings.jpg"width="200px"></div>
+        <form class="Selecciona_tus_toppings">
+            <input type="checkbox" id="Fresas" name="Topping_fresas" value="Fresas">
+            <label for="Topping_fresas">Fressas............$ 80.00</label><br>
+            <input type="checkbox" id="Nutella" name="Topping_Nutella" value="Nutella">
+            <label for="Topping_Nutella">Nutella..................$ 80.00</label><br>
+            <input type="checkbox" id="Cajeta" name="Topping_Cajeta" value="Cajeta">
+            <label for="Topping_Cajeta">Cajeta..................$ 80.00</label><br>
+            <input type="checkbox" id="Matcha" name="Topping_Matcha" value="Matcha">
+            <label for="Topping_Matcha">Matcha..................$ 80.00</label><br>
+            <input type="checkbox" id="Berries" name="Topping_Berries" value="Berries">
+            <label for="Topping_Berries">Berries..................$ 80.00</label><br>
+            <input type="checkbox" id="Fondant" name="Topping_Fondat" value="Fondant">
+            <label for="Topping_Fondant">Fondant..................$ 180.00</label><br>
+        </form> 
+        </center>
+        <input type="button" id="Agregar al carrito" name="Agregar_al_carrito" value="Agregar al carrito">
+        <action><a href="./Ordenes.html"></a></action>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+      <h2>Siguenos en nuestras redes</h2>
+      <p class="redes"></p>
+        <img src="./Imagenes/Facebook-logo-1-500x313.png" style="height: 70px;" height="70px" alt="">
+        <img src="./Imagenes/twitter.png" style="height: 70px;" height="70px" alt="">
+        <img src="./Imagenes/youtube.png" style="height: 70px;" height="70px" alt="">
+        <img src="./Imagenes/GalactiCake-removebg-preview.png" style="height: 70px;" height="70px" alt="">
+    </div>
+</body>
+</html>
+<!--
+<h1>Arma tu pedido</h1>
+<h2>Nombre de cliente</h2>
+    <form action="Pedidos.js">
+        <label for="Nombre"></label><br>
+        <input type="text" id="Nombres" placeholder="Nombres">
+        <label for="Apellidos"></label><br>
+        <input type="text" id="Apellidos" placeholder="Apellidos">
+        <label for="Telefono"> </label><br>
+        <input type="tel" id="Danos tu Telefono, Galactico" placeholder="Numero de telefono Galactico">
+        <label for="Correo electronico"> </label><br>
+        <input type="text" id="Danos tu correo electronico" placeholder="Direccion de correo">
+        <label for="Danos tu direccion"> </label><br>
+        <input type="text" id="Danos tu direccion" placeholder="Direccion">
+<hr>
+<H2>Selecciona los planetas de tu preferecia</H2>
+<input type="checkbox" id="Mercurio" name="Planetas" value="Mercurio">
+<label for="Mercurio">Mercurio............$ 450.00</label><br>
+<input type="checkbox" id="Venus" name="Planetas" value="Venus">
+<label for="Venus">Venus..................$ 400.00</label><br>
+<input type="checkbox" id="Tierra" name="Planetas" value="Tierra">
+<label for="Tierra">Tierra................$ 500.00</label><br>
+<input type="checkbox" id="Marte" name="Planetas" value="Marte">
+<label for="Marte">Marte..................$ 450.00</label><br>
+<input type="checkbox" id="Jupiter" name="Planetas" value="Jupiter">
+<label for="Jupiter">Jupiter..............$ 450.00</label><br>
+<input type="checkbox" id="Saturno" name="Planetas" value="Saturno">
+<label for="Saturno">Saturno..............$ 450.00</label><br>
+<input type="checkbox" id="Urano" name="Planetas" value="Urano">
+<label for="Urano">Urano..................$ 450.00</label><br>
+<input type="checkbox" id="Netpuno" name="Planetas" value="Netpuno">
+<label for="Netpuno">Netpuno..............$ 450.00</label><br>
+<input type="checkbox" id="Pluton" name="Planetas" value="Pluton">
+<label for="Pluton">Pluton................$ 450.00</label><br>
+</form>
+</body>
+</html>-->
